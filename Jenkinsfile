@@ -12,5 +12,20 @@ pipeline {
                 echo 'I am very very dead'
             }
         }
+        stage('Preparation') {
+            steps {
+                echo 'Preparation'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Build'
+            }
+        }
+        stage('Results') {
+            steps {
+                echo 'Results'
+            }
+        }
     }
 }
